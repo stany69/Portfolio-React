@@ -1,0 +1,75 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+.header_wrapper{
+    width: 100%;
+    height: 80px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header_list{
+    width: 76%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+
+}
+.home{
+    color: #070707;
+}
+.header_span{
+    width: 65%;
+    border-bottom: solid 1px #828282;
+    border-width: thin;
+    
+}
+
+
+li{
+    
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+    
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #828282;
+  }
+  
+
+   @media  only screen and (max-width :650px) and (min-width:350px) {
+
+    .header_wrapper{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    .header_list{
+        display: none;
+    }
+
+    .header_span{
+        display: none;
+    }
+
+   
+
+    
+
+    
+   }
+    
+  

@@ -1,0 +1,23 @@
+
+*{margin: 0; padding: 0;box-sizing: border-box;}
+html,body{
+    width: 100%;
+    height: 2487px;
+}
+
+p{
+    font-family: 'Abel', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #070707;
+}
+@media  only screen and (max-width :650px) and (min-width:350px){
+
+    html , body {
+        height: 3200px;
+    }
+
+    
+}

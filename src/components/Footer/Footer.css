@@ -1,0 +1,84 @@
+
+.footer_wrapper{
+    width: 100%;
+    height: 630px;
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; 
+    height: 220px;
+}
+.p_up{
+ 
+  margin-top: .5em;
+}
+.p_down{
+margin-top: -2em;
+}
+
+.button{
+    margin-top: -6em;
+    width: 180.5px;
+    height: 42px;
+}
+.btn{
+    width: 180.5px;
+    height: 42px;
+    border-radius: 50px;
+    background-color: #070707;
+    color: #FFFFFF; 
+    font-family: 'Abel', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+.social_media{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    margin-top: -2em;
+}
+.social{
+    width: 40px;
+    height: 40px;
+}
+
+.like_me{
+    width: 30%;
+    text-align: center; 
+    margin-top: -5em;
+}
+
+.like{
+    font-size: 14px;
+    line-height: 18px;
+    color: #828282;
+}
+
+@media  only screen and (max-width :650px) and (min-width:350px){
+    .footer_wrapper{
+        width: 100%;
+    }
+    .button{
+        width: 80%;
+        height: 65px;
+    }
+    .btn{
+        width: 100%;
+        height: 65px;
+    }
+    .social_media{
+        width: 80%;
+       justify-content: space-between;
+    }
+    .like_me{
+        width: 60%;
+    }
+}
